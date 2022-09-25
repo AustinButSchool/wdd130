@@ -1,18 +1,28 @@
 body {
   background: rgb(67, 255, 208);
-  padding: 10ch;
+  padding: 0.5in;
   font-family: neat;
+  color: rgb(0, 8, 67);
+  padding-left: 1in;
 }
 
 p {
-  color: red;
+  text-align: center;
+  font-size: 0.25in;
 }
 
 div {
-  background-color: aqua;
+  background-color: rgb(31, 205, 205);
   padding: 5%;
+  border-color: black;
+  border-radius: 20%;
+  border-style: groove;
 }
 @font-face {
   font-family: neat;
-  src: url(Kaitlyneat-Regular.ttf);
+  src: url(Wonkscript-Regular.ttf);
+}
+
+.awesomeheading {
+  color: rgb(72, 0, 255);
 }
