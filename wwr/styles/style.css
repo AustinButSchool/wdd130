@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Wonkscript;
+  src: url(Wonkscript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Kaitlyneat;
+  src: url(Kaitlyneat-Regular.ttf);
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -6,6 +16,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: #18a4f7;
+  padding: 35px;
 }
 #hero-msg h1,
 #hero-msg h4 {
@@ -25,6 +36,10 @@ main section {
 }
 body {
   background-color: #052740;
+  font-family: Kaitlyneat;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #052740;
@@ -38,6 +53,10 @@ nav a:hover {
   background-color: #052740;
   color: #18a4f7;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
@@ -49,17 +68,29 @@ nav a:hover {
 }
 .msg {
   background-color: #18a4f7;
+  line-height: 1.5em;
+  padding: 35px;
 }
 footer {
   background-color: #ff7f11;
   color: #052740;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 .home-title {
   color: #18a4f7;
+  font-family: Kaitlyneat;
+  font-size: 2em;
+  margin-top: 10px;
 }
 .msg h2,
 .msg p {
   color: #052740;
+  font-family: Wonkscript;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0;
+  padding-bottom: 15px;
 }
 footer a {
   color: #052740;
@@ -71,6 +102,7 @@ footer a:hover {
 
 .icon,
 .logo {
+  padding-top: 10px;
   width: 80px;
 }
 #hero-img {
@@ -82,4 +114,25 @@ footer p {
 }
 footer p:hover {
   text-decoration: underline;
+}
+#logo_link {
+  padding-top: 5px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.coding-card,
+.threed-card,
+.story-card {
+  margin: 200px 0;
+}
+.card-img {
+  object-fit: cover;
+  width: 750px;
+  height: 750px;
+  border: 10px solid #f4f7f8;
+}
+
+main section img {
+  box-sizing: border-box;
 }
