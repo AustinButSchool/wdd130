@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Ported</title>
+  </head>
+  <body>
+    <div class = "background"></div>
+    <div id="content">
+      <header>
+        <div class="topnav">
+          <a href="index.html"><div class="topnavdivsquare"><img class="headerimg" src="/wdd130/ported/images/logo.png" ></div></a>
+          <a href="index.html"><div class="topnavdiv">Projects</div></a>
+          <a href="portal.html"><div class="topnavdiv">Portal</div></a>
+          <a href="help.html"><div class="topnavdiv">Help</div></a>
+          <div class="topnav-right">
+            <a href="profile.html" ><div class="topnavdivsquare"><img class="headerimg" src="/wdd130/ported/images/profile.png" ></div></a>
+            <a href="signin.html"><div class="topnavdivsquare"><img class="headerimg" src="/wdd130/ported/images/power button.png" ></div></a>
+          </div>
+        </div>
+      </header>
+  
+      <div class="topmargin">
+        <div class="body">
+          <div class="mainpage">
+            <div class="portalgrid">
+                <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Sneezed</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Chili Dogs</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>TEst</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Thumbnail name</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Sneezed</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Chili Dogs</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>TEst</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Thumbnail name</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Sneezed</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Chili Dogs</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>TEst</p></div>
+            <div><img src="/wdd130/ported/images/thumbnail.png" ><p>Thumbnail name</p></div>
+            </div>
+
+          </div>
+      
+      </div><br><br>
+      <div class="body"> 
+        <div class="profiledetails">  
+          <button style="background-color:#ff7f11;" onclick="myFunction()">Dark Mode</button> <-- Click this! (Will delete this block when I figure out how to save the button state)
+          <br><br>Tutorials for Functionality:<br><br>https://www.youtube.com/watch?v=q171WuNGhb0&list=PLBOh8f9FoHHisZ9zCKMTcc6RDbIWdrsOa<br><br>https://www.youtube.com/watch?v=0fHdrv9e7nA&list=PLBOh8f9FoHHisZ9zCKMTcc6RDbIWdrsOa&index=28<br><br></div></div>
+      <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+           localStorage.setItem('darkWasPressed', 'true');
+          localStorage.getItem('darkWasPressed');
+        }
+        </script>       </main>
+      <br>
+      <footer>
+        <div class="message">Thanks YD, for the inspiration to create.e</div>
+        <div class="footerlinks"><p>Ported &copy; 2022 - Austin Jones</p></div>
+        <div class="footerlinks"><p><a href="site-plan.html">Site Plan</a></p></div>
+        <div class="footerlinks"><p><a href="contactus.html">Contact Us</a></p></div>
+        <div class="footerlinks"><div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img class="icon" src="images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img class="icon" src="images/twitter.png" alt="twitter icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img class="icon" src="images/instagram.png" alt="instagram icon" />
+          </a>
+        </div></div>
+      </footer>
+    </div>
+  </body>
+</html>
